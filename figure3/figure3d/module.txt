@@ -1,0 +1,70 @@
+modules 	B
+M00015	Amino acid metabolism
+M00018	Amino acid metabolism
+M00019	Amino acid metabolism
+M00020	Amino acid metabolism
+M00021	Amino acid metabolism
+M00022	Amino acid metabolism
+M00023	Amino acid metabolism
+M00024	Amino acid metabolism
+M00025	Amino acid metabolism
+M00026	Amino acid metabolism
+M00028	Amino acid metabolism
+M00045	Amino acid metabolism
+M00118	Amino acid metabolism
+M00133	Amino acid metabolism
+M00432	Amino acid metabolism
+M00526	Amino acid metabolism
+M00527	Amino acid metabolism
+M00535	Amino acid metabolism
+M00570	Amino acid metabolism
+M00844	Amino acid metabolism
+M00096	Biosynthesis of terpenoids and polyketides
+M00364	Biosynthesis of terpenoids and polyketides
+M00365	Biosynthesis of terpenoids and polyketides
+M00793	Biosynthesis of terpenoids and polyketides
+M00001	Carbohydrate metabolism
+M00002	Carbohydrate metabolism
+M00005	Carbohydrate metabolism
+M00006	Carbohydrate metabolism
+M00007	Carbohydrate metabolism
+M00010	Carbohydrate metabolism
+M00307	Carbohydrate metabolism
+M00308	Carbohydrate metabolism
+M00549	Carbohydrate metabolism
+M00554	Carbohydrate metabolism
+M00580	Carbohydrate metabolism
+M00631	Carbohydrate metabolism
+M00632	Carbohydrate metabolism
+M00854	Carbohydrate metabolism
+M00855	Carbohydrate metabolism
+M00909	Carbohydrate metabolism
+M00144	Energy metabolism
+M00157	Energy metabolism
+M00169	Energy metabolism
+M00378	Energy metabolism
+M00579	Energy metabolism
+M00608	Energy metabolism
+M00063	Glycan metabolism
+M00064	Glycan metabolism
+M00866	Glycan metabolism
+M00082	Lipid metabolism
+M00083	Lipid metabolism
+M00086	Lipid metabolism
+M00093	Lipid metabolism
+M00115	Metabolism of cofactors and vitamins
+M00119	Metabolism of cofactors and vitamins
+M00120	Metabolism of cofactors and vitamins
+M00123	Metabolism of cofactors and vitamins
+M00125	Metabolism of cofactors and vitamins
+M00126	Metabolism of cofactors and vitamins
+M00140	Metabolism of cofactors and vitamins
+M00141	Metabolism of cofactors and vitamins
+M00572	Metabolism of cofactors and vitamins
+M00846	Metabolism of cofactors and vitamins
+M00847	Metabolism of cofactors and vitamins
+M00048	Nucleotide metabolism
+M00049	Nucleotide metabolism
+M00050	Nucleotide metabolism
+M00051	Nucleotide metabolism
+M00052	Nucleotide metabolism

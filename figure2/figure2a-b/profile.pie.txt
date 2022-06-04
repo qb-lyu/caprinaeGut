@@ -1,0 +1,15 @@
+	HG	NHP	RUG	Sheep
+Firmicutes	2488	741	1184	2505
+Bacteroidetes	598	310	564	349
+Fusobacteriota	35	0	0	0
+Actinobacteria	434	38	66	57
+Proteobacteria	409	68	88	104
+Fibrobacteres	0	0	28	0
+Verrucomicrobia	29	0	0	71
+Spirochaetes	0	44	40	38
+Euryarchaeota	28	23	41	43
+Lentisphaerae	27	0	0	55
+Candidatus Melainabacteria	61	27	54	28
+Kiritimatiellaeota	0	0	32	0
+Elusimicrobia	0	0	21	0
+Other(<20)	68	62	44	56

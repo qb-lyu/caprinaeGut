@@ -1,0 +1,173 @@
+DATASET_EXTERNALSHAPE
+#Nodes have multiple values associated with them. Values will be displayed as geometric shapes of different sizes in columns outside the tree.
+#Highest value in the dataset will have the largest size, and all others will be scaled down proportionally.
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,example shapes dataset
+
+#dataset color (can be changed later)
+COLOR,#ff0000
+
+#define colors for each individual field column (use hexadecimal, RGB or RGBA notation; if using RGB/RGBA, COMMA cannot be used as SEPARATOR)
+FIELD_COLORS,#fa6b4d,#245f99,#66c3a8,#6a53a5,#ffba57,#fff8b7
+
+#field labels
+FIELD_LABELS,AA,CBM,CE,GH,GT,PL
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+LEGEND_TITLE,CAZy
+#LEGEND_POSITION_X,100
+#LEGEND_POSITION_Y,100
+LEGEND_SHAPES,1,1,1,1,1,1
+LEGEND_COLORS,#fa6b4d,#245f99,#66c3a8,#6a53a5,#ffba57,#fff8b7
+LEGEND_LABELS,AA,CBM,CE,GH,GT,PL
+LEGEND_SHAPE_SCALES,1,1,1,1,1,1
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN,0
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL,1
+
+#show dashed lines between leaf labels and the dataset
+DASHED_LINES,0
+
+#shape height factor; Default shape height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+HEIGHT_FACTOR,3
+
+#vertical and horizontal grids can be displayed connecting the shapes
+#HORIZONTAL_GRID,1
+#VERTICAL_GRID,1
+
+#horizontal spacing between shape columns
+SHAPE_SPACING,15
+
+#Shape types:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#SHAPE_TYPE,2
+
+#if set to 0, only outlines will be shown
+COLOR_FILL,1
+
+#if set to 1, actual numeric value will be show in the center of each shape
+SHOW_VALUES,1
+
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#ID1,value1,value2,value3
+#ID2,value4,value5,value6
+#9606,10,10,20,40
+#LEAF1|LEAF2,50,60,80,90
+SD4.bin156.fa,1,16,5,26,65,0
+SX1.bin092.fa,5,23,9,39,78,0
+SX1.bin110.fa,4,40,13,74,100,1
+GX4.bin100.fa,2,32,7,62,92,0
+AH2.bin130.fa,2,25,10,93,78,0
+XZ5.bin133.fa,3,51,25,85,134,1
+SX3.bin117.fa,2,37,13,107,94,4
+SD1.bin075.fa,2,26,9,72,84,5
+JL4.bin148.fa,2,22,4,40,63,0
+GX4.bin033.fa,3,18,5,23,85,0
+GX5.bin104.fa,3,6,0,10,40,0
+AH5.bin084.fa,2,15,3,15,34,0
+SX4.bin005.fa,3,33,10,76,84,1
+GX5.bin131.fa,2,23,6,38,94,0
+SX4.bin079.fa,1,21,6,39,74,0
+AH2.bin064.fa,2,15,6,27,65,0
+SX3.bin071.fa,3,16,5,36,69,0
+SX5.bin063.fa,4,43,24,187,180,0
+SX1.bin055.fa,2,25,13,76,68,0
+SD4.bin165.fa,4,65,11,93,96,9
+XZ5.bin082.fa,9,52,43,81,183,0
+SD4.bin096.fa,3,16,4,25,87,0
+JL4.bin010.fa,1,33,12,75,105,1
+AH5.bin168.fa,3,44,14,91,113,1
+SX1.bin087.fa,1,14,6,33,54,0
+GX2.bin119.fa,4,10,2,10,69,0
+GX5.bin112.fa,4,6,0,11,36,0
+GX4.bin006.fa,2,30,9,67,87,1
+SX1.bin104.fa,2,5,1,14,21,0
+SD2.bin067.fa,2,24,11,63,53,1
+AH2.bin208.fa,2,16,4,26,41,0
+GX1.bin113.fa,2,39,16,89,61,5
+SX3.bin135.fa,2,32,3,43,73,1
+JL2.bin074.fa,3,18,13,46,55,5
+SX3.bin107.fa,3,33,9,63,91,6
+XZ3.bin117.fa,2,9,3,16,40,0
+GX2.bin077.fa,4,27,7,38,79,0
+AH1.bin041.fa,3,33,13,93,75,1
+JL5.bin123.fa,2,26,5,51,75,0
+JL1.bin134.fa,2,17,4,25,72,0
+JL1.bin174.fa,2,23,13,57,69,1
+XZ4.bin011.fa,2,13,2,16,41,0
+GX4.bin070.fa,2,19,8,61,59,1
+SX1.bin082.fa,3,11,6,41,78,2
+SD1.bin151.fa,4,34,24,142,95,2
+GX4.bin043.fa,2,42,18,149,85,5
+AH2.bin147.fa,3,34,10,32,84,0
+GX2.bin024.fa,3,22,7,34,64,0
+SD4.bin049.fa,1,25,6,37,85,2
+AH3.bin057.fa,1,10,3,14,49,0
+XZ2.bin075.fa,2,59,9,55,118,0
+SX3.bin141.fa,3,70,5,56,74,1
+XZ4.bin044.fa,2,12,3,15,64,0
+JL5.bin090.fa,3,56,15,112,106,2
+GX2.bin158.fa,2,42,20,128,83,2
+XZ5.bin124.fa,8,52,39,93,179,1
+XZ5.bin084.fa,11,75,31,103,172,0
+GX2.bin121.fa,2,29,6,66,98,1
+GX5.bin058.fa,2,29,10,53,62,1
+GX5.bin004.fa,1,21,7,41,70,0
+JL5.bin162.fa,2,35,11,54,88,4
+AH5.bin057.fa,2,23,8,35,60,0
+JL5.bin124.fa,2,24,6,41,56,0
+SX3.bin045.fa,3,38,18,115,94,7
+SX4.bin083.fa,2,25,11,90,85,0
+GX4.bin014.fa,2,17,6,26,65,0
+AH2.bin136.fa,2,27,13,88,63,4
+SD5.bin087.fa,2,31,12,78,67,1
+JL5.bin098.fa,2,33,14,54,100,0
+JL5.bin034.fa,3,33,9,74,68,2
+XZ5.bin001.fa,2,23,9,88,75,1
+SX1.bin028.fa,1,28,7,51,74,0
+SD3.bin057.fa,2,14,8,31,58,0
+AH5.bin096.fa,2,48,16,152,131,1
+SX5.bin060.fa,3,63,21,157,70,3
+AH3.bin007.fa,3,33,25,107,90,4

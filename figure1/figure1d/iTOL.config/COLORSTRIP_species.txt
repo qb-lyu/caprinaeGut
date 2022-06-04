@@ -1,0 +1,130 @@
+DATASET_COLORSTRIP  
+#lines starting with a hash are comments and ignored during parsing  
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line, which uses space).  
+  
+#SEPARATOR TAB  
+SEPARATOR SPACE  
+#SEPARATOR COMMA  
+  
+#label is used in the legend table (can be changed later)  
+DATASET_LABEL color_strip2  
+  
+#dataset color (can be changed later)  
+COLOR #ff0000  
+  
+#optional settings  
+  
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)  
+  
+#maximum width  
+STRIP_WIDTH 55  
+  
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.  
+MARGIN 25  
+  
+#border width; if set above 0, a black border of specified width (in pixels) will be drawn around the color strip   
+BORDER_WIDTH 0.5  
+BORDER_COLOR #000  
+  
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.  
+SHOW_INTERNAL 0  
+  
+#In colored strip charts, each ID is associated to a color. Color can be specified in hexadecimal, RGB or RGBA notation  
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages  
+#Actual data follows after the "DATA" keyword  
+LEGEND_TITLE Species
+LEGEND_SHAPES 1 1
+LEGEND_COLORS #6298CB #ffffff
+LEGEND_LABELS Known Unknown
+DATA  
+#ID1 value1  
+#ID2 value2  
+AH1.bin069.fa #6298CB COL_#6298CB_yes
+AH1.bin128.fa #6298CB COL_#6298CB_yes
+AH2.bin130.fa #6298CB COL_#6298CB_yes
+AH3.bin040.fa #6298CB COL_#6298CB_yes
+AH4.bin012.fa #6298CB COL_#6298CB_yes
+AH4.bin173.fa #6298CB COL_#6298CB_yes
+AH5.bin041.fa #6298CB COL_#6298CB_yes
+AH5.bin051.fa #6298CB COL_#6298CB_yes
+AH5.bin069.fa #6298CB COL_#6298CB_yes
+AH5.bin084.fa #6298CB COL_#6298CB_yes
+AH5.bin096.fa #6298CB COL_#6298CB_yes
+AH5.bin103.fa #6298CB COL_#6298CB_yes
+AH5.bin122.fa #6298CB COL_#6298CB_yes
+AH5.bin127.fa #6298CB COL_#6298CB_yes
+GX2.bin008.fa #6298CB COL_#6298CB_yes
+GX2.bin109.fa #6298CB COL_#6298CB_yes
+GX2.bin149.fa #6298CB COL_#6298CB_yes
+GX4.bin033.fa #6298CB COL_#6298CB_yes
+GX5.bin131.fa #6298CB COL_#6298CB_yes
+JL1.bin007.fa #6298CB COL_#6298CB_yes
+JL1.bin083.fa #6298CB COL_#6298CB_yes
+JL1.bin125.fa #6298CB COL_#6298CB_yes
+JL2.bin071.fa #6298CB COL_#6298CB_yes
+JL2.bin093.fa #6298CB COL_#6298CB_yes
+JL2.bin098.fa #6298CB COL_#6298CB_yes
+JL3.bin005.fa #6298CB COL_#6298CB_yes
+JL3.bin036.fa #6298CB COL_#6298CB_yes
+JL3.bin040.fa #6298CB COL_#6298CB_yes
+JL3.bin043.fa #6298CB COL_#6298CB_yes
+JL3.bin046.fa #6298CB COL_#6298CB_yes
+JL3.bin047.fa #6298CB COL_#6298CB_yes
+JL3.bin050.fa #6298CB COL_#6298CB_yes
+JL3.bin058.fa #6298CB COL_#6298CB_yes
+JL3.bin059.fa #6298CB COL_#6298CB_yes
+JL3.bin068.fa #6298CB COL_#6298CB_yes
+JL3.bin087.fa #6298CB COL_#6298CB_yes
+JL3.bin106.fa #6298CB COL_#6298CB_yes
+JL3.bin109.fa #6298CB COL_#6298CB_yes
+JL4.bin022.fa #6298CB COL_#6298CB_yes
+JL4.bin036.fa #6298CB COL_#6298CB_yes
+JL4.bin055.fa #6298CB COL_#6298CB_yes
+JL4.bin079.fa #6298CB COL_#6298CB_yes
+JL4.bin120.fa #6298CB COL_#6298CB_yes
+JL4.bin122.fa #6298CB COL_#6298CB_yes
+JL4.bin143.fa #6298CB COL_#6298CB_yes
+JL4.bin148.fa #6298CB COL_#6298CB_yes
+JL4.bin156.fa #6298CB COL_#6298CB_yes
+JL4.bin162.fa #6298CB COL_#6298CB_yes
+JL5.bin017.fa #6298CB COL_#6298CB_yes
+JL5.bin045.fa #6298CB COL_#6298CB_yes
+JL5.bin091.fa #6298CB COL_#6298CB_yes
+JL5.bin109.fa #6298CB COL_#6298CB_yes
+JL5.bin142.fa #6298CB COL_#6298CB_yes
+SD1.bin142.fa #6298CB COL_#6298CB_yes
+SD2.bin104.fa #6298CB COL_#6298CB_yes
+SD3.bin017.fa #6298CB COL_#6298CB_yes
+SD3.bin200.fa #6298CB COL_#6298CB_yes
+SD5.bin008.fa #6298CB COL_#6298CB_yes
+SD5.bin022.fa #6298CB COL_#6298CB_yes
+SD5.bin036.fa #6298CB COL_#6298CB_yes
+SD5.bin072.fa #6298CB COL_#6298CB_yes
+SD5.bin092.fa #6298CB COL_#6298CB_yes
+SD5.bin095.fa #6298CB COL_#6298CB_yes
+SD5.bin097.fa #6298CB COL_#6298CB_yes
+SD5.bin127.fa #6298CB COL_#6298CB_yes
+SD5.bin128.fa #6298CB COL_#6298CB_yes
+SD5.bin145.fa #6298CB COL_#6298CB_yes
+SX1.bin028.fa #6298CB COL_#6298CB_yes
+SX1.bin055.fa #6298CB COL_#6298CB_yes
+SX1.bin087.fa #6298CB COL_#6298CB_yes
+SX1.bin097.fa #6298CB COL_#6298CB_yes
+SX2.bin025.fa #6298CB COL_#6298CB_yes
+SX2.bin068.fa #6298CB COL_#6298CB_yes
+SX2.bin132.fa #6298CB COL_#6298CB_yes
+SX2.bin161.fa #6298CB COL_#6298CB_yes
+SX3.bin150.fa #6298CB COL_#6298CB_yes
+SX4.bin027.fa #6298CB COL_#6298CB_yes
+SX4.bin053.fa #6298CB COL_#6298CB_yes
+SX4.bin077.fa #6298CB COL_#6298CB_yes
+SX4.bin079.fa #6298CB COL_#6298CB_yes
+SX4.bin093.fa #6298CB COL_#6298CB_yes
+SX4.bin099.fa #6298CB COL_#6298CB_yes
+SX5.bin001.fa #6298CB COL_#6298CB_yes
+SX5.bin026.fa #6298CB COL_#6298CB_yes
+SX5.bin063.fa #6298CB COL_#6298CB_yes
+XZ2.bin010.fa #6298CB COL_#6298CB_yes
+XZ2.bin024.fa #6298CB COL_#6298CB_yes
+XZ2.bin100.fa #6298CB COL_#6298CB_yes
+XZ5.bin001.fa #6298CB COL_#6298CB_yes
